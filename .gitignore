@@ -1,0 +1,62 @@
+# --- Archivos del sistema ---
+.DS_Store
+Thumbs.db
+
+# --- Archivos de sistema de desarrollo ---
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# --- Archivos de compilación ---
+*.class
+*.o
+*.out
+*.log
+*.tmp
+
+# --- Java ---
+/target/
+/bin/
+/build/
+
+# --- Node.js ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+.env/
+.venv/
+
+# --- Archivos de entorno ---
+.env
+.env.local
+.env.*.local
+
+# --- Archivos de dependencias ---
+package-lock.json
+yarn.lock
+
+# --- Archivos del sistema operativo ---
+ehthumbs.db
+Icon?
+desktop.ini
+
+# --- Archivos de configuración personal ---
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# --- Archivos de salida o temporales ---
+dist/
+out/
+coverage/
+.cache/
